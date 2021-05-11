@@ -1,0 +1,7 @@
+version: "2"
+services:
+  ezsql:
+    build: .
+    stdin_open: true
+    ports:
+      - "8001:80"

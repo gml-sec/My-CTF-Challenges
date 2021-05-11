@@ -1,0 +1,10 @@
+version: "2"
+services:
+  ezlight:
+    image: web_ezlight
+    volumes:
+      - ./log:/var/log/nginx
+    build: .
+    # restart: always
+    ports:
+      - "3333:80"

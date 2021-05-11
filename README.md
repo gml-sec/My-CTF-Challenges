@@ -1,2 +1,3 @@
 # My-CTF-Challenges
-Collection of CTF Web challenges I made
+记录自己出过的 CTF 题目环境、wp等。
+
