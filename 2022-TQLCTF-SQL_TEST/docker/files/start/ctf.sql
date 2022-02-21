@@ -1,0 +1,5 @@
+CREATE USER 'ctf'@'%' IDENTIFIED BY 'gmlsec123456';
+GRANT SELECT ON *.* TO 'ctf'@'%';
+GRANT FILE ON *.* TO 'ctf'@'%';
+GRANT RELOAD ON *.* TO 'ctf'@'%';
+FLUSH PRIVILEGES;

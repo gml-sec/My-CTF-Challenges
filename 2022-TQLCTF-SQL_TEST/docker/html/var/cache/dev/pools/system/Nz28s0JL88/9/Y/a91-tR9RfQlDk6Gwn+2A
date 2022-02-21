@@ -1,0 +1,50 @@
+<?php //getTypes.a%253A3%253A%257Bi%253A0%253Bs%253A27%253A%2522Symfony%255CComponent%255CForm%255CForm%2522%253Bi%253A1%253Bs%253A6%253A%2522errors%2522%253Bi%253A2%253Ba%253A0%253A%257B%257D%257D
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\PropertyInfo\\Type'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\PropertyInfo\\Type')),
+        clone $p['Symfony\\Component\\PropertyInfo\\Type'],
+        clone $p['Symfony\\Component\\PropertyInfo\\Type'],
+    ],
+    null,
+    [
+        'Symfony\\Component\\PropertyInfo\\Type' => [
+            'builtinType' => [
+                'array',
+                'int',
+                'object',
+            ],
+            'nullable' => [
+                false,
+                false,
+                false,
+            ],
+            'collection' => [
+                true,
+                false,
+                false,
+            ],
+            'collectionKeyType' => [
+                [
+                    $o[1],
+                ],
+                [],
+                [],
+            ],
+            'collectionValueType' => [
+                [
+                    $o[2],
+                ],
+                [],
+                [],
+            ],
+            'class' => [
+                2 => 'Symfony\\Component\\Form\\FormError',
+            ],
+        ],
+    ],
+    [
+        $o[0],
+    ],
+    []
+); }];

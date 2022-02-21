@@ -1,0 +1,23 @@
+<?php //getProperties.a%253A2%253A%257Bi%253A0%253Bs%253A27%253A%2522Symfony%255CComponent%255CForm%255CForm%2522%253Bi%253A1%253Ba%253A0%253A%257B%257D%257D
+
+return [PHP_INT_MAX, [
+    'config',
+    'name',
+    'propertyPath',
+    'required',
+    'disabled',
+    'parent',
+    'root',
+    'data',
+    'normData',
+    'viewData',
+    'extraData',
+    'errors',
+    'submitted',
+    'synchronized',
+    'transformationFailure',
+    'empty',
+    'valid',
+    'clickedButton',
+    'iterator',
+]];
